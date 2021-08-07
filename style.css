@@ -7,6 +7,65 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+.intro-chunk p {
+  max-width: 50%;
+  font-size: 1.1rem;
+}
+
+.intro-chunk {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 8px solid #666666;
+}
+
+strong {
+  color: #009966;
+}
+
+main {
+  padding-top: 80px;
+  background-color: #999999;
+  min-height: 100%;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid #666666;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.indented-heading {
+  display: inline-block;
+  padding: 20px;
+  margin-block-start: 10px;
+  margin-left: -20px;
+  background-color: #FFC001;
+  border-bottom: 8px solid #CC9900;
+}
